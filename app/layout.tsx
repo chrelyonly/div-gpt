@@ -7,10 +7,10 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "🍓",
-  description: "🍓.",
+  title: "strawberry",
+  description: "strawberry.",
   appleWebApp: {
-    title: "🍓",
+    title: "strawberry",
     statusBarStyle: "default",
   },
   themeColor: "#fafafa",
