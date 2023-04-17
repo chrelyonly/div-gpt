@@ -167,10 +167,8 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
-          <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
-          </div>
+          <div className={styles["sidebar-title"]}>草莓🍓</div>
+          <div className={styles["sidebar-sub-title"]}>提出你的问题吧</div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
           </div>
@@ -186,7 +184,7 @@ function _Home() {
           <ChatList />
         </div>
 
-        <div className={styles["sidebar-tail"]}>
+        <div className={styles["sidebar-tail"]} style={{ display: "none" }}>
           <div className={styles["sidebar-actions"]}>
             <div className={styles["sidebar-action"] + " " + styles.mobile}>
               <IconButton
